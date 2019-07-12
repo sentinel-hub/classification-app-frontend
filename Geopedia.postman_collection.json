@@ -1,0 +1,31 @@
+{
+	"id": "b1556d68-dc56-b43b-ed50-e49e728d1a0d",
+	"name": "Geopedia",
+	"requests": [
+		{
+			"id": "03238089-fa60-d219-40f8-88109ddb2524",
+			"headers": "Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGrwQytpCGSrFvePw\n",
+			"url": "https://localhost:8888/rest/data/v1/features/saveWithFiles?sid=ses5BEB039D3371465E9232EEB1427A3F67",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b1556d68-dc56-b43b-ed50-e49e728d1a0d",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Save features with files",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1503412019213,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "------WebKitFormBoundaryGrwQytpCGSrFvePw\r\nContent-Disposition: form-data; name=\"file1\"; filename=\"test.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: base64\r\n\r\niVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAPklEQVR42m1NWw4AIAgS1/2vTE7z\r\nUYsPN0AAJAUQuwWnaCE8Ux16eCWSgrNkQK/q7EkjuEXHzOr3T9Uz46sbB9gdAzzt51AAAAAASUVO\r\nRK5C\r\n------WebKitFormBoundaryGrwQytpCGSrFvePw\r\nContent-Disposition: form-data; name=\"feature\"; filename=\"blob\"\r\nContent-Type: application/json\r\n\r\n{\r\n   \"id\":\"2*\",\r\n   \"@id\":\"feature/2*\",\r\n   \"properties\":[\r\n      {\r\n         \"type\":\"long\",\r\n         \"value\":null\r\n      },\r\n      {\r\n         \"type\":\"long\",\r\n         \"value\":null\r\n      },\r\n      {\r\n         \"type\":\"boolean\",\r\n         \"value\":false\r\n      },\r\n      {\r\n         \"type\":\"text\",\r\n         \"value\":null\r\n      },\r\n      {\r\n         \"type\":\"long\",\r\n         \"value\":null\r\n      },\r\n      {\r\n         \"type\":\"geometry\",\r\n         \"value\":{\r\n            \"wkt\":\"POINT(-704443.6526761841 -3757032.814272982)\",\r\n            \"crsId\":\"EPSG:3857\"\r\n         },\r\n         \"geomAuxData\":{\r\n            \"mbr\":null,\r\n            \"pointInside\":null\r\n         }\r\n      },\r\n      {\r\n         \"type\":\"binaryReferenceArray\",\r\n         \"value\":[\r\n            {\r\n               \"objectType\":\"IMAGE\",\r\n               \"width\":0,\r\n               \"height\":0,\r\n               \"orientationAzimuth\":null,\r\n               \"orientationPitch\":null,\r\n               \"orientationRoll\":null,\r\n               \"isPanorama\":null,\r\n               \"panoWidthAngle\":null,\r\n               \"panoHeightAngle\":null,\r\n               \"niceName\":\"\",\r\n               \"fileSize\":0,\r\n               \"gpsLongitude\":null,\r\n               \"gpsLatitude\":null,\r\n               \"gpsAltitude\":null,\r\n               \"gpsTime\":null,\r\n               \"objectPath\":null,\r\n               \"mimeType\":\"image/jpeg\",\r\n               \"customLabel\":null,\r\n               \"fileUploadToken\":\"*file1\",\r\n               \"newReferenceAbsoluteFilePath\":null\r\n            }\r\n         ]\r\n      },\r\n      {\r\n         \"type\":\"text\",\r\n         \"value\":\"Test1\"\r\n      },\r\n      {\r\n         \"type\":\"text\",\r\n         \"value\":\"Test2\"\r\n      },\r\n      {\r\n         \"type\":\"text\",\r\n         \"value\":\"Test3\"\r\n      },\r\n      {\r\n         \"type\":\"long\",\r\n         \"value\":null\r\n      },\r\n      {\r\n         \"type\":\"date\",\r\n         \"value\":1501797600000\r\n      },\r\n      {\r\n         \"type\":\"text\",\r\n         \"value\":\"Unknown\"\r\n      },\r\n      {\r\n         \"type\":\"foreignReference\",\r\n         \"referencedFeature\":null,\r\n         \"value\":null\r\n      },\r\n      {\r\n         \"type\":\"boolean\",\r\n         \"value\":false\r\n      },\r\n      {\r\n         \"type\":\"binaryReferenceArray\",\r\n         \"value\":[\r\n\r\n         ]\r\n      },\r\n      {\r\n         \"type\":\"double\",\r\n         \"value\":null\r\n      },\r\n      {\r\n         \"type\":\"long\",\r\n         \"value\":null\r\n      },\r\n      {\r\n         \"type\":\"foreignReference\",\r\n         \"referencedFeature\":null,\r\n         \"value\":null\r\n      }\r\n   ],\r\n   \"lastUserId\":null,\r\n   \"tableId\":\"345\",\r\n   \"table\":null,\r\n   \"storeAction\":\"INSERT\",\r\n   \"name\":null,\r\n   \"revision\":0,\r\n   \"dataScope\":\"ALL\"\r\n}\r\n------WebKitFormBoundaryGrwQytpCGSrFvePw--"
+		}
+	],
+	"order": [
+		"03238089-fa60-d219-40f8-88109ddb2524"
+	],
+	"timestamp": 1503412019213
+}

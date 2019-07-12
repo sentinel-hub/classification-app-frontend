@@ -1,0 +1,29 @@
+.textAreaPreview {
+  display: flex;
+  flex: 100%;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.textAreaPreview .textArea {
+  flex: 1;
+  background-color: #fff;
+  border: solid 1px #3e3e3e;
+  border-radius: 5px;
+}
+
+.preview {
+  float: right;
+  border-radius: 50px;
+  padding: 0 5px;
+  background: rgba(0, 0, 0, 0);
+  transition: 0.3s ease-in-out;
+}
+.preview:hover {
+  float: right;
+  border-radius: 50px;
+  border: 1px solid #5d9bff;
+  padding: 0 10px;
+  background: #5d9bff;
+  color: #fff;
+}

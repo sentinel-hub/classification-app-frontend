@@ -1,0 +1,66 @@
+.app-title {
+  letter-spacing: 0.2em;
+  font-weight: 200;
+}
+
+.mainAppHeader {
+  background: #333;
+  height: 45px;
+  color: #fff;
+  overflow: hidden;
+  padding: 1px;
+}
+.mainAppHeader small {
+  display: block;
+}
+.mainAppHeader h3 {
+  display: inline-block;
+  margin: 0;
+  font-size: 24px;
+  height: 100%;
+  text-align: middle;
+  line-height: 45px;
+}
+
+.mainAppHeader .rightHeader {
+  float: right;
+}
+.mainAppHeader .rightHeader > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.mainAppHeader .rightHeader > a {
+  color: #fff;
+}
+
+.mainAppHeader .welcomeMsg {
+  float: right;
+  padding-right: 20px;
+  height: 100%;
+  text-align: bottom;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 0.05em;
+  font-size: 13px;
+}
+.mainAppHeader .welcomeMsg .campaign-selection > button {
+  letter-spacing: 0.05em;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  border: 1px solid #f7f7f7;
+  padding: 0 15px;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  margin-left: 20px;
+  margin-top: 2px;
+}
+.mainAppHeader .welcomeMsg .campaign-selection > button:hover {
+  background: #5d9bff;
+  border: 1px solid #5d9bff;
+  padding: 0 20px;
+}
+
+.app-version {
+  font-size: 12px;
+}

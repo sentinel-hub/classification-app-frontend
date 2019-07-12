@@ -1,0 +1,93 @@
+{
+  "campaigns": [
+    {
+      "name": "My first campaign",
+      "id": 1,
+      "gpdParameters": {
+        "tableId": "1749",
+        "saveType": "Geopedia"
+      },
+      "uiParameters": {
+        "imageSize": 64,
+        "geojson": null,
+        "googleApiKey": "your-google-maps-api-key",
+        "lastTileId": null,
+        "maxOpacity": 100,
+        "updateBackground": false,
+        "updateLockedColors": false,
+        "saveImage": false
+      },
+      "shParameters": {
+        "baseWmsUrl": "http://services.sentinel-hub.com/v1/wms",
+        "baseIndexUrl": "http://services.sentinel-hub.com/index/s2/v3",
+        "wmsTimeout": 20000,
+        "indexTimeout": 2000,
+        "resolution": 10,
+        "imageFormat": "png",
+        "windowBuffer": 10,
+        "instanceId": "8e39beb6-4b79-4a33-bde0-2e5a53a3ee18",
+        "maxcc": 100,
+        "tileSize": [10980, 10980],
+        "wmsTileSize": 512,
+        "minZoom": 5,
+        "layers": "TRUE_COLOR",
+        "presets": ["TRUE_COLOR", "BRIGHT_AREAS", "DARK_AREAS", "INFRARED", "CLOUDS_BCY", "CLOUDS_B11_B3_B2", "CIRRUS", "WATER_TEST", "SNOW_TEST", "NDVI"],
+        "dataSources": ["Sentinel-2"]
+      },
+      "classificators": [
+        { 
+          "color": "#F4D03F",
+          "title": "Clouds",
+          "paintAll": false,
+          "subclasses": [
+            {
+              "color": "#FF7000",
+              "title": "Opaque clouds"
+            },
+            {
+              "color": "#FFB000",
+              "title": "Thick clouds"
+            },
+            {
+              "color": "#FFFF00",
+              "title": "Thin clouds"
+            }]
+        },
+        {
+          "color": "#606060",
+          "title": "Shadows",
+          "paintAll": false,
+          "subclasses": [
+            {
+              "color": "#606060",
+              "title": "Shadows"
+            }]
+        },
+        {
+          "color": "#FF0000",
+          "title": "Surface",
+          "paintAll": true,
+          "subclasses": [
+            {
+              "color": "#008000",
+              "title": "Land"
+            },
+            {
+              "color": "#0000FF",
+              "title": "Water"
+            },
+            {
+              "color": "#00FFFF",
+              "title": "Snow"
+            }]
+        }]
+    }
+  ],
+  "users": [
+    {
+      "name": "trial_user",
+      "id": 1,
+      "campaignId": [1]
+    }
+  ]
+}

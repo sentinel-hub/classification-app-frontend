@@ -1,0 +1,11 @@
+.informationDisplayModal {
+  flex-direction: column;
+}
+.ui.button.button-close {
+  padding-top: 5px;
+  border-radius: 50px;
+}
+.ui.button.button-close:hover {
+  color: #fff;
+  background-color: #5d9bff;
+}

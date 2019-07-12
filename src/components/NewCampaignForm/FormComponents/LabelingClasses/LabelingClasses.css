@@ -1,0 +1,52 @@
+.labeling-classes .labeling-class {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.labeling-classes .labeling-class .color-indicator {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #999;
+}
+.labeling-classes .labeling-class label {
+  margin-left: 5px;
+}
+.labeling-classes .labeling-class i.remove {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.labeling-classes .add-labeling-class {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.labeling-classes .add-labeling-class * {
+  margin-right: 10px;
+  letter-spacing: 0.05em;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.labeling-classes-name {
+  border: 1px solid #3e3e3e;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0);
+  padding: 3px 3px 3px 10px;
+}
+
+.labeling-classes .add-labeling-class * > button {
+  padding: 3px 10px;
+  transition: 0.3s ease-in-out;
+}
+.labeling-classes .add-labeling-class * > button:hover {
+  background: #5d9bff;
+  border: 1px solid #5d9bff;
+  padding: 3px 15px;
+  color: #fff;
+}
+
+.add-labeling-class > input {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0);
+}

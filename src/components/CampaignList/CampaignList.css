@@ -1,0 +1,86 @@
+.page.page-campaign-list .content-box {
+  max-width: initial;
+}
+.page.page-campaign-list .content-box button.select-camp {
+  margin: 0 20px 10px 0;
+  border-color: #c3c3c3;
+  padding: 6px 15px;
+  height: initial;
+  border-radius: 50px;
+  letter-spacing: 0.05em;
+  font-weight: 200;
+  font-size: 13px;
+  transition: 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+}
+
+.page.page-campaign-list .content-box button.select-camp:hover {
+  color: #fff;
+  font-weight: 400;
+  background-color: #5d9bff;
+  border-color: #fff;
+  border-radius: 50px;
+  padding: 6px 20px;
+}
+
+.page.page-campaign-list .content-box button.new-camp {
+  margin-left: 20px;
+  transition: 0.3s ease-in-out;
+  letter-spacing: 0.05em;
+  font-weight: 200;
+  font-size: 13px;
+}
+.page.page-campaign-list .content-box button.new-camp:hover {
+  color: #fff;
+  font-weight: 400;
+  background-color: #5d9bff;
+  border-color: #fff;
+  border-radius: 50px;
+  padding: 6px 15px;
+}
+
+.new-modal {
+  color: #3e3e3e;
+  width: 100%;
+  border-radius: 0px;
+  height: 100%;
+  margin-top: -70px;
+}
+
+.new-list .item .header {
+  color: #3e3e3e;
+  margin-left: 10vw;
+  font-weight: 400;
+  width: auto;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+.new-list .item .header:hover {
+  color: #5d9bff;
+  transition: ease-out 100ms;
+}
+.item:hover {
+  background: none;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.ui.modal > .content {
+  background: #f7f7f7;
+}
+
+.new-cmp,
+.cancel {
+  margin-top: 35px;
+}
+
+.labeling-classes-name {
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 3px 3px 1px 5px;
+}

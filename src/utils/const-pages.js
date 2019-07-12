@@ -1,0 +1,6 @@
+export const PAGES = {
+  LOGIN: 0,
+  SELECT_CAMPAIGN: 1,
+  NEW_CAMPAIGN: 2,
+  SHOW_CAMPAIGN: 3,
+};
